@@ -16,3 +16,15 @@ code {
   font-family: sans-serif;
   text-align: center;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input, button {
+  width: 25%;
+  margin: 0.5%;
+}
